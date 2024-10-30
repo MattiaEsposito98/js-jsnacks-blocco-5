@@ -8,4 +8,5 @@ const posts = [
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
 
-console.log ("snack 4")
+const nomeAutori = posts.map ((name) => name.author)
+console.log (nomeAutori)
